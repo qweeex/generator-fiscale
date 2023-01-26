@@ -1,10 +1,9 @@
 name: Fiscale
 on: workflow_dispatch
-jobs: 
-	print: 
-		runs-on: ubuntu-latest
-    steps: 
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
       - name: Print to console
-        run: echo Hello github mut
-		
+        run: echo Hello github mute
 		
