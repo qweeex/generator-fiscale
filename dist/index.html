@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="/index.59a40e7a.js" defer=""></script>
+</head>
+<body>
+    <div id="app">
+        <div class="container">
+            <div class="row pt-5 pb-5">
+                <div class="col-12">
+                    <h1>Generator Fiscale Code</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-group mb-3 input-group-lg">
+                    <input type="number" v-model="count" class="form-control" placeholder="Recipient's username" aria-label="Enter count fiscale code" aria-describedby="button-addon2">
+                    <button @click="generateUsers" class="btn btn-outline-secondary" type="button" id="button-addon2">Generate</button>
+                </div>
+            </div>
+            <div class="row">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Surname</th>
+                        <th scope="col">Gender</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Fiscale Code</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>Otto</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
