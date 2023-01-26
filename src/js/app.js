@@ -31,6 +31,7 @@ const app = createApp({
                     year: this.randomIntFromInterval(1970, 2002),
                     birthplace: currentCity.Code
                 })
+
                 this.users.push({
                     surname: fiscaleCode.surname,
                     name: fiscaleCode.name,
